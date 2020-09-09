@@ -1,0 +1,76 @@
+body {
+    background-color: whitesmoke;
+}
+.container {
+    background-color: white;
+}
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0%;
+    padding-left: 0;
+    box-shadow: 10px 5px 5px grey;
+    height: 100%;
+}
+
+.nav {
+    background-color: teal;
+    width: 100%;
+}
+
+.nav-link {
+    color: white;
+}
+
+/* Make the image responsive */
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+#caro-btn {
+    color: #0b2e13;
+}
+
+#footerBottom {
+    padding-top: 50px;
+    background-color: whitesmoke;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    /*display: flex;*/
+    /*justify-content: left;*/
+    width: 80px;
+    height: 80px;
+    line-height: 40px;
+    margin-left: 6px;
+    margin-right: 0;
+    border-radius: 100%;
+    /*background-color: #33353d;*/
+}
+
+.social-icons {
+    padding-left:0;
+    margin-bottom:0;
+    list-style:none
+}
+
+.social-icons li
+{
+    display:inline-block;
+    margin-bottom:4px
+}
+
+/*.social-icons li.title*/
+/*{*/
+/*  margin-right:15px;*/
+/*  text-transform:uppercase;*/
+/*  color:#96a2b2;*/
+/*  font-weight:700;*/
+/*  font-size:13px*/
+/*}*/
